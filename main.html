@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento de Equipos de Laboratorio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+        header {
+            background: #1565c0;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 50px;
+            background: white;
+            margin: 40px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            display: none;
+        }
+        .carousel img.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Mantenimiento de Equipos de Laboratorio</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="fade-in">
+        <h2>Bienvenidos</h2>
+        <p>Somos expertos en el mantenimiento y reparación de equipos de laboratorio.</p>
+        <div class="carousel">
+            <img src="img1.jpg" class="active" alt="Imagen 1">
+            <img src="img2.jpg" alt="Imagen 2">
+            <img src="img3.jpg" alt="Imagen 3">
+        </div>
+    </section>
+    
+    <section id="servicios" class="fade-in">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Calibración de equipos</li>
+            <li>Mantenimiento preventivo</li>
+            <li>Reparación de instrumentos</li>
+        </ul>
+        <div class="carousel">
+            <img src="servicio1.jpg" class="active" alt="Servicio 1">
+            <img src="servicio2.jpg" alt="Servicio 2">
+            <img src="servicio3.jpg" alt="Servicio 3">
+        </div>
+    </section>
+    
+    <section id="nosotros" class="fade-in">
+        <h2>Sobre Nosotros</h2>
+        <p>Contamos con años de experiencia brindando soluciones a laboratorios en todo el país.</p>
+    </section>
+    
+    <section id="contacto" class="fade-in">
+        <h2>Contacto</h2>
+        <p>Email: contacto@empresa.com</p>
+        <p>Teléfono: +123 456 7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mantenimiento de Equipos de Laboratorio</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll(".fade-in");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            elements.forEach(element => observer.observe(element));
+
+            // Carrusel de imágenes
+            const carousels = document.querySelectorAll(".carousel");
+            carousels.forEach(carousel => {
+                let index = 0;
+                const images = carousel.querySelectorAll("img");
+                setInterval(() => {
+                    images[index].classList.remove("active");
+                    index = (index + 1) % images.length;
+                    images[index].classList.add("active");
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>

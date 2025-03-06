@@ -12,12 +12,12 @@ function moveTo(index) {
     ];
 
     const extraBackgrounds = [
-        "/assets/img/banner8.jpg",
-        "/assets/img/banner8.jpg",
-        "/assets/img/banner8.jpg",
-        "/assets/img/banner8.jpg",
-        "/assets/img/banner8.jpg",
-        "/assets/img/banner8.jpg"
+        "/assets/img/banner1.jpg",
+        "/assets/img/banner2.jpg",
+        "/assets/img/banner2.jpg",
+        "/assets/img/banner2.jpg",
+        "/assets/img/banner2.jpg",
+        "/assets/img/banner2.jpg"
     ];
 
     if (index === 0) {

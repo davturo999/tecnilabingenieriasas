@@ -20,11 +20,17 @@ function moveTo(index) {
         mainImage.style.flex = "1";
         extraContent.style.flex = "0";
     } else {
-        // Si es cualquier otro botón, la imagen grande se reduce
+        // Si es cualquier otro botón, la imagen grande se reduce y la pequeña aparece a la IZQUIERDA
         mainImage.style.flex = "0.7";
         extraContent.style.flex = "0.3";
+        extraContent.style.order = "-1"; // Esto mueve la imagen pequeña a la izquierda
     }
 
     mainImage.style.backgroundImage = `url('${mainBackgrounds[index]}')`;
     extraContent.style.backgroundImage = `url('${extraBackground}')`;
 }
+
+// Mostrar banner1 al cargar la página
+document.addEventListener("DOMContentLoaded", () => {
+    moveTo(0);
+});

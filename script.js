@@ -3,12 +3,12 @@ function moveTo(index) {
     const extraContent = document.getElementById("extra-content");
 
     const backgrounds = [
-        "/assets/img/inicio.jpg",      // INICIO
-        "/assets/img/quienes.jpg",     // QUIENES SOMOS
-        "/assets/img/productos.jpg",   // PRODUCTOS
-        "/assets/img/ofertas.jpg",     // OFERTAS
-        "/assets/img/servicio.jpg",    // SERVICIO TÉCNICO
-        "/assets/img/contacto.jpg"     // CONTACTO
+        "/assets/img/banner1.jpg",      // INICIO
+        "/assets/img/banner2.jpg",     // QUIENES SOMOS
+        "/assets/img/banner3.jpg",   // PRODUCTOS
+        "/assets/img/banner4.jpg",     // OFERTAS
+        "/assets/img/banner5.jpg",    // SERVICIO TÉCNICO
+        "/assets/img/banner6.jpg"     // CONTACTO
     ];
 
     const extraBackgrounds = [

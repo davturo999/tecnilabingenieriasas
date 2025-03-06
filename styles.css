@@ -68,11 +68,17 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 
-/* Sección extra (oculta por defecto) */
 .extra-section {
-    width: 0%;
-    background: none;
+    flex: 0;
+    background: url('/assets/img/contacto1.jpg') center/cover no-repeat;
     transition: all 0.5s ease-in-out;
+    order: -1; /* Mueve la imagen pequeña a la izquierda */
+    
+    /* 🔹 Ajustamos su tamaño para que no se desborde */
+    background-size: contain;  /* La imagen se ajusta sin recortarse */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 

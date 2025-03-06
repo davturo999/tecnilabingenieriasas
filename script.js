@@ -12,12 +12,12 @@ function moveTo(index) {
     ];
 
     const extraBackgrounds = [
-        "/assets/img/extra-inicio.jpg",
-        "/assets/img/extra-quienes.jpg",
-        "/assets/img/extra-productos.jpg",
-        "/assets/img/extra-ofertas.jpg",
-        "/assets/img/extra-servicio.jpg",
-        "/assets/img/extra-contacto.jpg"
+        "/assets/img/banner8.jpg",
+        "/assets/img/banner8.jpg",
+        "/assets/img/banner8.jpg",
+        "/assets/img/banner8.jpg",
+        "/assets/img/banner8.jpg",
+        "/assets/img/banner8.jpg"
     ];
 
     if (index === 0) {

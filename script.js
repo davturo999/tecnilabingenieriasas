@@ -12,7 +12,7 @@ function moveTo(index) {
         "/assets/img/banner3.jpg",
         "/assets/img/banner4.jpg",
         "/assets/img/banner5.jpg",
-        "/assets/img/banner6.jpg"
+        "/assets/img/banner1.jpg"
     ];
 
     if (index === 0) {

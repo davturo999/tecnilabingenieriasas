@@ -4,11 +4,11 @@ function moveTo(index) {
 
     const backgrounds = [
         "/assets/img/banner1.jpg",      // INICIO
-        "/assets/img/banner2.jpg",     // QUIENES SOMOS
-        "/assets/img/banner3.jpg",   // PRODUCTOS
-        "/assets/img/banner4.jpg",     // OFERTAS
-        "/assets/img/banner5.jpg",    // SERVICIO TÉCNICO
-        "/assets/img/banner6.jpg"     // CONTACTO
+        "/assets/img/contacto1.jpg",     // QUIENES SOMOS
+        "/assets/img/contacto1.jpg",   // PRODUCTOS
+        "/assets/img/contacto1.jpg",     // OFERTAS
+        "/assets/img/contacto1.jpg",    // SERVICIO TÉCNICO
+        "/assets/img/contacto1.jpg"     // CONTACTO
     ];
 
     const extraBackgrounds = [

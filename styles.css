@@ -2,6 +2,9 @@ header {
     width: 100%;
     height: 60px;
     background-color: #1E3A5F;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 footer {

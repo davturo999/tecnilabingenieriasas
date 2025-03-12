@@ -1,4 +1,13 @@
-
+.inicio{
+	text-align: center;
+	height: 500px;
+	width: 1200px;
+	background: white;
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+	box-sizing:border-box;	
+}
 .cuadro_banner_right{
 	text-align: center;
 	height: 450px;

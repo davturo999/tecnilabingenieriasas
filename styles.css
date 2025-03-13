@@ -1,6 +1,96 @@
+.box{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.caso_exito{
+	text-align: center;
+	margin: 30px 45px;
+
+}
+.texto_inicio{
+	color: #333333;
+	font-family: Arial;
+	font-size: 18px;	
+	margin-top:50px;
+}
+.flex{
+	display: flex;
+	padding: 0px;
+	box-sizing:border-box;
+	margin: auto;
+}
+.inicio_casos_exito{
+	text-align: center;
+	height: 100px;
+	width: 1200px;
+	background: white;
+	margin: auto;
+	padding: 10px;
+	box-sizing:border-box;
+	/*border: 1px solid black;*/
+	font-family: Arial;
+	font-size: 18px;
+	color: #333333;
+	
+	
+}
+.inicio_right{
+
+	text-align: left;
+	height: 250px;
+	width: 250px;
+	background: white;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	padding: 0px;
+	box-sizing:border-box;
+	/*border: 1px solid black;*/
+	font-family: Arial;
+	font-size: 18px;
+	
+}
+.inicio_left{
+	text-align: left;
+	height: 250px;
+	width: 250px;
+	background: white;
+	margin: 20px 100px 0px 300px;
+	text-align: center;
+	padding: 0px;
+	box-sizing:border-box;
+	/*border: 1px solid black;*/
+	font-family: Arial;
+	font-size: 18px;
+	
+}
+.astrab{
+	text-align: center;
+	height: 100px;
+	width: 1200px;
+	background: white;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	box-sizing:border-box;
+	/*border: 1px solid black;*/
+	font-family: Arial;
+	font-size: 22px;
+	color: #333333;
+	
+	
+}
+.correo{
+    color: #1F699F;
+    font-size: 25px;
+    font-weight: bolder;
+	font-family: 'Aptos','Arial';
+
+}
+
 .inicio{
 	text-align: center;
-	height: 500px;
+	height: 600px;
 	width: 1200px;
 	background: white;
 	margin: auto;
@@ -47,6 +137,7 @@
 }
 
 .header{
+	
 	text-align: center;
 	height: 100px;
 	width: 1200px;
@@ -141,9 +232,3 @@ button:hover {
 button:active {
     transform: scale(0.98); 
 }
-
-
-
-
-
-

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
 .box{
 	margin: 0px;
 	padding: 0px;
@@ -81,7 +84,7 @@
 	
 }
 .correo{
-    color: #1F699F;
+    color: #003366;
     font-size: 25px;
     font-weight: bolder;
 	font-family: 'Aptos','Arial';
@@ -90,7 +93,7 @@
 
 .inicio{
 	text-align: center;
-	height: 600px;
+	height: 40px;
 	width: 1200px;
 	background: white;
 	margin: auto;
@@ -127,7 +130,7 @@
 .banners{
 	display: flex;
 	text-align: center;
-	height: 450px;
+	height: 440px;
 	width: 1200px;
 	background: orange;
 	margin: auto;
@@ -139,13 +142,14 @@
 .header{
 	
 	text-align: center;
-	height: 100px;
+	height: 45px;
 	width: 1200px;
-	background: white;
+	background: Withe;
 	margin: auto;
 	text-align: center;
-	padding: 10px;
+	padding: 0px;
 	box-sizing:border-box;
+	
 }
 
 .botones{
@@ -206,10 +210,10 @@
 
 
 h1{
-    color: #1F699F;
-    font-size: 35px;
+    color: #003366;
+    font-size: 40px;
     font-weight: bolder;
-	font-family: 'Aptos','Arial';
+	font-family: 'Poppins', sans-serif;
 }
 
 button {

@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+.subtitulo_left{
+	text-align: left;
+
+	margin-left: 10px;
+    color: #003366;
+    font-size: 25px;
+    font-weight: bolder;
+	font-family: 'Aptos','Arial';
+}
+.texto_1{
+	color: grey;
+	text-align: justify;
+	font-family: 'Aptos','Arial';
+	margin: 10px;
+	font-size: 20px;
+}
+.subtitulo{
+	text-align: right;
+	margin: 20px;
+    color: #003366;
+    font-size: 25px;
+    font-weight: bolder;
+	font-family: 'Aptos','Arial';
+}
+.mision_txt{
+	/*background-color: yellow;*/
+	height: 430px;
+	width: 620px;
+	margin-top: 20px;
+	margin-left:20px;
+
+}
+.mision_img{
+	/*background-color: yellow;*/
+	height: 450px;
+	width: 450px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 60px;
+}
+.mision-vision{
+	display: flex;
+	/*background-color: black;*/
+	height: 480px;
+}
 
 .box{
 	margin: 0px;
@@ -67,22 +112,7 @@
 	font-size: 18px;
 	
 }
-.astrab{
-	text-align: center;
-	height: 100px;
-	width: 1200px;
-	background: white;
-	margin: auto;
-	text-align: center;
-	padding: 5px;
-	box-sizing:border-box;
-	/*border: 1px solid black;*/
-	font-family: Arial;
-	font-size: 22px;
-	color: #333333;
-	
-	
-}
+
 .correo{
     color: #003366;
     font-size: 25px;
@@ -104,7 +134,7 @@
 .cuadro_banner_right{
 	text-align: center;
 	height: 450px;
-	width: 750px;
+	width: 950px;
 	background: white;
 	margin: left;
 	text-align: left;
@@ -117,7 +147,7 @@
 
 	text-align: center;
 	height: 450px;
-	width: 450px;
+	width: 250px;
 	background: #1F699F;
 	margin: 0;
 	text-align: left;

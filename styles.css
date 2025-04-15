@@ -37,18 +37,18 @@ h1{
     text-align: right;
     z-index: 1000;
 	padding-right: 150px;
-	height: 69px;
+	height: 64px;
 
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
     display: inline-block;
     transition: background 1s;
 	font-family: 'Aptos','Arial';
-	font-size: 20px;
+	font-size: 17px;
 	
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -70,17 +70,26 @@ h1{
 	color: white;
 	text-align: left;
 	font-family: 'Aptos','Arial';
-	margin-left: 200px;
+	margin-left: 20px;
 	font-size: 20px;
-	margin-top: 52px;
+	margin-top: 20px;
+
 	
 }
 .pie_pagina{
+
 	background-color: #003366;
 	height: 230px;
 	width: 100vw;
 	display: flex;
 	margin-top: 60px;
+}
+
+.centroo{
+	display: flex;	
+	/*background-color: red;*/
+	margin: auto;
+	width: 1000px;
 }
 .subtitulo_left{
 	text-align: left;
@@ -97,18 +106,11 @@ h1{
 	margin: 10px;
 	font-size: 20px;
 }
-.subtitulo{
-	text-align: right;
-	margin: 20px;
-    color: #003366;
-    font-size: 25px;
-    font-weight: bolder;
-	font-family: 'Aptos','Arial';
-}
+
 .mision_txt{
 	/*background-color: yellow;*/
 	height: 430px;
-	width: 620px;
+	width: 697px;
 	margin-top: 20px;
 	margin-left:20px;
 
@@ -119,7 +121,7 @@ h1{
 	width: 450px;
 	padding: 0px;
 	margin-top: 0px;
-	margin-left: 60px;
+	margin-left: 30px;
 }
 .mision-vision{
 	display: flex;
@@ -144,27 +146,26 @@ h1{
 
 
 
-.correo{
+
+
+.subtitulo{
     color: #003366;
     font-size: 25px;
     font-weight: bolder;
 	font-family: 'Aptos','Arial';
-
-}
-
-.inicio{
-
 	height: 40px;
 	width: 1200px;
 	background: white;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 	padding: 0px;
-	box-sizing:border-box;	
+	box-sizing:border-box;
+	margin-bottom: 15px;
+	margin-top: 30px;
 }
 .cuadro_banner_right{
 	text-align: center;
-	height: 450px;
+	height: 434px;
 	width: 950px;
 	background: white;
 	margin-top: 15px;
@@ -172,7 +173,7 @@ h1{
 	text-align: left;
 	padding: 0px;
 	box-sizing:border-box;
-	/*border: 1px solid black;*/
+	border: 3px solid white;
 	
 }
 .cuadro_banner_left {
@@ -180,7 +181,7 @@ h1{
 	text-align: center;
 	height: 450px;
 	width: 290px;
-	background: #003366;
+	background: #45a4e7;
 	margin: 0;
 	text-align: left;
 	padding: 0px;
@@ -195,7 +196,7 @@ h1{
 	text-align: center;
 	height: 480px;
 	width: 1200px;
-	background: #003366;
+	background: #45a4e7;
 	margin: auto;
 	text-align: top;
 	padding: 0px;
@@ -214,4 +215,97 @@ h1{
 	padding: 0px;
 	box-sizing:border-box;
 	
+}
+
+
+
+.whats{
+	/*background-color: red;*/
+	position: fixed;
+	width: 4%;
+	height: 8%;
+	right: 5%;
+	bottom: 5%;
+}
+
+
+/* bannersssssssssssssssssssssssssssssss*/
+
+.banner_contenedor {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 75%;
+  margin: 40px auto;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  background-color: #e6f0fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 80, 0.2);
+  font-family: sans-serif;
+}
+
+.banner_texto {
+  flex: 1;
+  padding-right: 10px;
+  color: #003366;
+  font-size: 18px;
+}
+
+.banner_imagenes {
+  position: relative;
+  width: 70%;
+  height: 95%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.banner_imagen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: banner_cambioImagen 18s infinite;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner_imagen1 {
+  background-color: #4da6ff;
+  animation-delay: 0s;
+}
+
+.banner_imagen2 {
+  background-color: #3399cc;
+  animation-delay: 6s;
+}
+
+.banner_imagen3 {
+  background-color: #66c2ff;
+  animation-delay: 12s;
+}
+
+@keyframes banner_cambioImagen {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* quienes somos */
+
+.contenedor_quienes_somos{
+	width: 1200px;
+	margin: auto;
+	height:600px;
+	
+}
+
+/* miselaneos */
+
+.space {
+	height: 42px;
 }

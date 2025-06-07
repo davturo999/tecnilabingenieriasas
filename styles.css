@@ -107,7 +107,7 @@ a:hover {
   padding-top: 15vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(assets/banner1.jpg);
+    url(assets/img/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
